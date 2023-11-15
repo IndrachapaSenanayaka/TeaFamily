@@ -2,14 +2,20 @@
   font-family: 'Roboto', sans-serif;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}.circle {
+}
+
+.circle {
     padding: 16px 20px;
     border-radius: 30%;
-    background-color: green;
+    background-color: #63A12B;
     color: #fff;
     max-height: 50px;
     z-index: 2;
-  }
+}
+
+.circle i {
+  font-size: 25px;
+}
 
 html {
   scroll-behavior: smooth;
@@ -131,7 +137,8 @@ html {
 }
 
 .nav-bg-light .navbar-nav .active .nav-link {
-  color: #00b8a5;
+  /* color: #00b8a5; */
+  color: green;
 }
 
 #home {
@@ -247,6 +254,11 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+.download-card {
+  background-image: url('../img//backgrounddown.png');
+  background-size: cover; 
 }
 
 .main-sections .sub-section .downloads-container .card {
@@ -410,6 +422,7 @@ a {
   -webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
+  border: 2px solid #63A12B;
   padding: 25px;
   width: 150px;
   height: 150px;
@@ -643,7 +656,8 @@ a {
   .connecting-lines.row .col-2::after {
     content: "";
     position: absolute;
-    border-left: 3px solid #00b8a5;
+    border-left: 3px solid #63A12B;
+    /* border-left: 3px solid #00b8a5; */
     z-index: 1;
   }
   .connecting-lines.row .col-2.bottom::after {
@@ -666,24 +680,26 @@ a {
     padding: 0;
     height: 40px;
   }
+
   .timeline_s hr {
-    border-top: 3px solid #00b8a5;
+    border-top: 3px solid #63A12B;
     margin: 0;
     top: 17px;
     position: relative;
   }
+  
   .timeline_s .col-2 {
     display: flex;
     overflow: hidden;
   }
   .timeline_s .corner {
-    border: 3px solid #00b8a5;
+    border: 3px solid #63A12B;
     width: 100%;
     position: relative;
     border-radius: 15px;
   }
   .timeline_s .top-right {
-    left: 50%;
+    left: 49%;
     top: -50%;
   }
   .timeline_s .left-bottom {
@@ -691,7 +707,7 @@ a {
     top: calc(50% - 3px);
   }
   .timeline_s .top-left {
-    left: -50%;
+    left: -50.4%;
     top: -50%;
   }
   .timeline_s .right-bottom {
