@@ -25,10 +25,6 @@ html {
   background-color: #00b8a5;
 }
 
-.product-img {
-  display: flex;
-}
-
 @-webkit-keyframes slightSlideInFromBottom {
   0% {
     -webkit-transform: translateY(50px);
